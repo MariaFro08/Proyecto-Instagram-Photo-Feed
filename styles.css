@@ -1,0 +1,45 @@
+body  {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(211, 206, 206);
+}
+.header{
+    border: 0px solid red;
+    padding: 5px;
+    background-color: white;
+}
+.header h1{
+    width: 600px;
+    border: 0px solid red;
+    margin: 0 auto;
+}
+.post {
+    border: 1px solid black;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.post-image img{
+    width: 100%;
+}
+.header p{
+    width: 600px;
+    margin-right: 0 auto;
+}
+.header h2{
+    width: 600px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.post-footer {
+    padding: 0px 10px;
+}
